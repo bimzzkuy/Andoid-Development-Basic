@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="gundam x"/>
+
+    <ImageView
+        android:id="@+id/gundam"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/gundam" />
+
+    <TextView
+        android:id="@+id/gundampetarung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr gundam si petarung gagah"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/gundam"/>
+
+    <TextView
+        android:id="@+id/dollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$24.50"
+        android:textColor="#F3A41C"
+        android:layout_below="@id/gundampetarung"
+        android:textSize="30sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_favorite_24"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/gundampetarung"/>
+    <ImageButton
+        android:id="@+id/bintang1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+       android:background="@drawable/baseline_star_24"
+        android:layout_below="@id/dollar"/>
+    <ImageButton
+        android:id="@+id/bintang2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+      android:background="@drawable/baseline_star_24"
+        android:layout_toRightOf="@+id/bintang1"
+        android:layout_below="@id/dollar"/>
+    <ImageButton
+        android:id="@+id/bintang3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@id/bintang2"
+       android:background="@drawable/baseline_star_24"
+        android:layout_below="@id/dollar"/>
+    <ImageButton
+        android:id="@+id/bintang4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@id/bintang3"
+       android:background="@drawable/baseline_star_24"
+        android:layout_below="@id/dollar"/>
+
+    <ImageButton
+        android:id="@+id/bintang5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/dollar"
+        android:layout_toRightOf="@id/bintang4"
+        android:backgroundTint="#AFAFAF"
+        android:background="@drawable/baseline_star_24"/>
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/bintang5"
+        android:background="#808080"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:text="brand "/>
+    <TextView
+        android:id="@+id/banprest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banpresto"
+        android:layout_toRightOf="@id/brand"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="513dp"/>
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brand"
+        android:text="tipe"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/sipetarung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banprest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@+id/banprest"
+        android:text="si petarung jago"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/dimensions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipe"
+        android:text="dimensions"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>

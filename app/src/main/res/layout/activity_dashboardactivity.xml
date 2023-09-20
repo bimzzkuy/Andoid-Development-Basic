@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboardactivity">
+    <ImageButton
+        android:id="@+id/ibmenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_sort_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="@drawable/rectangle"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kyrie" />
+    <TextView
+        android:id="@+id/sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sale"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFF57C00"
+        android:layout_below="@id/gambar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/sepuluhpersen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sale"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-11dp"
+        android:text="10%"
+        android:textColor="#FFF57C00"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/limitedition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*limited edition"
+        android:layout_below="@+id/sepuluhpersen"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"/>
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/limitedition"
+        android:background="#808080"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/garis"
+        android:text="popular"
+        android:textSize="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF57C00"/>
+    <TextView
+        android:id="@+id/newarrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/popular"
+        android:layout_below="@id/garis"
+        android:text="new arrival"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/newarrival"
+        android:layout_below="@id/garis"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/potokyrie"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="18dp"
+        android:layout_below="@id/popular"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/kyrie"
+        android:src="@drawable/card_image_rectangle"/>
+
+
+    <TextView
+        android:id="@+id/kyrieirping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KYRIE IRVING SANGAT JAGO JADI GUARD"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/newarrival"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="1dp"/>
+    <TextView
+        android:id="@+id/bandar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bandar"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/kyrieirping"
+        android:layout_marginStart="140dp"/>
+    <TextView
+        android:id="@+id/duit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$81.59"
+        android:textColor="#FFF57C00"
+        android:layout_below="@id/bandar"
+        android:textSize="20dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="2dp"/>
+    <ImageView
+        android:id="@+id/fotogucci"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/gucci"
+        android:layout_below="@+id/potokyrie"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/card_image_rectangle"/>
+    <TextView
+        android:id="@+id/textbajugucci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAJU GUCCI KYRIE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/fotogucci"
+        android:layout_below="@id/duit"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/bandar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bandar"
+        android:layout_below="@id/textbajugucci"
+        android:layout_toRightOf="@id/fotogucci"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:id="@+id/duit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$85.59"
+        android:layout_below="@id/bandar2"
+        android:layout_toRightOf="@id/fotogucci"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"
+        android:textSize="20dp"
+        android:textColor="#FFF57C00"/>
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/balanciaga"
+        android:layout_below="@id/fotogucci"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/card_image_rectangle"/>
+    <TextView
+        android:id="@+id/balanciaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="BALANCIAGA KYRIE 2"
+        android:layout_below="@id/duit2"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/bandar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bandar"
+        android:textStyle="bold"
+        android:layout_below="@id/balanciaga"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$95.89"
+        android:textColor="#FFF57C00"
+        android:layout_below="@id/bandar3"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="2dp"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

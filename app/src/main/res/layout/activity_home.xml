@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/images"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENATHEAAA3"
+        android:textColor="#BD815C"
+        android:layout_marginBottom="250sp"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnpindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#BD815C"
+        android:text="pindah "
+        app:icon="@drawable/baseline_arrow_right_alt_24"
+        />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#74D321"
+        android:layout_gravity="center"
+        android:text="share"
+        android:layout_margin="15dp"
+        app:icon="@drawable/baseline_share_24"
+        />
+.
+        .
+</LinearLayout>
+
+
+</LinearLayout>

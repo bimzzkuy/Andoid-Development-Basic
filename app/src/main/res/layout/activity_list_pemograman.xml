@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListPemogramanActivity">
+
+    <TextView
+        android:id="@+id/judulpemograman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="Bahasa Pemograman Popular 2023"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/judulpemograman"
+        android:layout_margin="20dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvbahasapemograman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</RelativeLayout>

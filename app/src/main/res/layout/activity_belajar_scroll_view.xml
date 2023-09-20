@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BelajarScrollViewActivity">
+
+  <ImageView
+      android:id="@+id/ivBg"
+      android:layout_width="match_parent"
+      android:layout_height="235dp"
+    android:src="@drawable/spark"
+    android:scaleType="centerCrop"/>
+
+  <ImageView
+      android:id="@+id/gambar"
+      android:layout_width="141dp"
+      android:layout_height="201dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginStart="10dp"
+      android:background="@drawable/spark" />
+  <TextView
+      android:id="@+id/friendly"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/gambar"
+    android:textSize="20sp"
+      android:layout_marginStart="10dp"
+    android:layout_marginTop="50dp"
+      android:textColor="@color/white"
+    android:text="spark the friendly fire"
+    android:textStyle="bold"/>
+  <TextView
+    android:id="@+id/spark"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/friendly"
+      android:text="spark"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:layout_toRightOf="@id/gambar"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="7dp"/>
+  <ImageView
+    android:id="@+id/star"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/baseline_star_24"
+    android:layout_toRightOf="@id/spark"
+    android:layout_below="@id/friendly"
+    android:layout_marginStart="19dp"
+    android:layout_marginTop="5dp"/>
+
+  <TextView
+      android:id="@+id/empatenam"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/friendly"
+      android:layout_toRightOf="@id/star"
+      android:layout_marginTop="2dp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:text="4.6"
+      android:textSize="20sp" />
+  <TextView
+      android:id="@+id/review"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="132 Reviews"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:layout_below="@id/friendly"
+    android:layout_toRightOf="@id/empatenam"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="6dp"/>
+
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/shadow1"
+      android:layout_width="100dp"
+      android:layout_height="20dp"
+      android:layout_below="@id/gambar"
+      android:layout_marginStart="20dp"
+      android:backgroundTint="@color/teal_200"
+      android:layout_marginTop="15dp"
+      app:cardCornerRadius="5dp">
+
+    <TextView
+        android:id="@+id/shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="shadow"
+      android:layout_marginStart="25dp"
+      android:textSize="12dp"/>
+  </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fictionsatu"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+      android:layout_below="@id/gambar"
+      android:layout_marginStart="170dp"
+      android:layout_marginTop="15dp"
+      android:backgroundTint="@color/teal_200"
+      app:cardCornerRadius="5dp">
+
+      <TextView
+        android:id="@+id/fiction"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:text="fiction"
+        android:layout_marginStart="30dp"
+        android:textSize="12dp"/>
+    </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="100dp"
+      android:layout_height="20dp"
+      android:layout_below="@id/gambar"
+      android:layout_marginTop="15dp"
+     android:layout_alignParentEnd="true"
+      android:backgroundTint="@color/teal_200"
+      app:cardCornerRadius="5dp">
+
+    <TextView
+        android:id="@+id/nonfiction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="non-fiction"
+        android:layout_marginStart="30dp"
+        android:textSize="12dp"/>
+  </androidx.cardview.widget.CardView>
+
+
+  <TextView
+      android:id="@+id/synopsis1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:text="synopsis"
+    android:layout_below="@id/shadow1"
+    android:layout_marginStart="20dp"
+    android:textSize="15dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"/>
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:layout_below="@id/synopsis1"
+      android:layout_marginStart="30dp"
+      android:layout_marginEnd="30dp"
+      android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        >
+
+      <TextView
+          android:id="@+id/panjangteks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="15dp"
+          android:lineHeight="17dp"
+          android:text="@string/panjang" />
+    </RelativeLayout>
+  </ScrollView>
+
+  <TextView
+      android:id="@+id/Review"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:layout_below="@+id/panjangteks"
+    android:text="Review"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+      tools:ignore="NotSibling" />
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+
+
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/Review"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="600dp">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/panjangteks"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                app:cardCornerRadius="20dp"
+                tools:ignore="NotSibling">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="30dp"
+                  android:text="woody woodpacker"
+                  android:textColor="@color/black" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="20dp"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/polismen" />
+
+              <ImageView
+                  android:id="@+id/gunugbulet"
+                  android:layout_width="match_parent"
+                  android:layout_height="30dp"
+                  android:background="@drawable/gunung" />
+
+
+            </androidx.cardview.widget.CardView>
+
+          </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

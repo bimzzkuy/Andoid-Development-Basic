@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativelayout">
+
+    <TextView
+        android:id="@+id/kiriatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kiri atas"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/kananatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kanan atas"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tengahatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="tengah atas"
+        android:textAllCaps="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/kiritengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kiritengah"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/tengahkanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tengahkanan"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="#D32F2F"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tengahtengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="tengah tengah"
+        android:textAllCaps="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tengahbawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="tengah bawah"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/kiribawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="tengah tengah"
+        android:textAllCaps="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/kananbawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="tengah tengah"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/diatastengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="diatas tengah"
+        android:textAllCaps="true"
+        android:textColor="#D32F2F"
+        android:textSize="15sp"
+        android:layout_above="@+id/tengahtengah"
+        />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.belajarandroidactivity.countActivity">
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="40sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+        android:id="@+id/btnCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:backgroundTint="#8A2BE2"
+        android:text="COUNT"
+        android:textSize="20sp"
+        android:layout_marginEnd="10dp"
+        />
+    <Button
+        android:id="@+id/btnMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#595061"
+        android:text="MIN"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
+            android:text="RESET"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

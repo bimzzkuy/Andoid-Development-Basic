@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+       >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                 android:layout_alignParentTop="true"
+                android:src="@drawable/gunung"/>
+            <TextView
+                android:id="@+id/kadie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KADIEU"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#222"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/photo"/>
+
+            <TextView
+                android:id="@+id/amazing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_below="@id/kadie"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Amazing view can be enjoyed from above of refreshing city"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baseline_location_on_24"
+                android:layout_below="@+id/amazing"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/bogor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bogor"
+                android:layout_toRightOf="@id/location"
+                android:layout_below="@id/amazing"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageButton
+                android:id="@+id/prize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baseline_price_check_24"
+                android:layout_toRightOf="@+id/bogor"
+                android:layout_below="@id/amazing"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100/package"
+                android:layout_toRightOf="@id/bogor"
+                android:layout_below="@id/amazing"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bogor"
+                android:text="buy here now"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>

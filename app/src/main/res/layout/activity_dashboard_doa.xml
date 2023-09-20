@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardDoaActivity">
+
+    <RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/doa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Do'a Dan"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dzikir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doa"
+            android:layout_marginStart="20dp"
+            android:text="Dzikir"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dzikir"
+            android:layout_marginStart="20dp"
+            android:text="App"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logodzikir"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/dzikir"
+            android:background="@drawable/logodoa" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlpilihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rectangle"
+        >
+
+        <TextView
+            android:id="@+id/pilihandoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="#FE9C2A"
+            android:text="pilihan doa dan"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/dzikir1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dzikir"
+            android:textColor="#FE9C2A"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/pilihandoa"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="50dp"
+            android:layout_toRightOf="@id/dzikir1"
+            android:layout_below="@id/rectangle"
+            android:layout_marginStart="150dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/cvSelengkapnya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#8A8888"
+                    android:drawableRight="@drawable/baseline_arrow_forward_24"
+                    android:text="Selengkapnya" />
+        </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvdoa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlpilihan"
+        android:layout_marginStart="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
+
+
+

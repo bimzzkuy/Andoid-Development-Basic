@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">countactivity</string>
+    <string name="lorem">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</string>
+    <string name="synopsis">Phe lives a dual life
+Everyone knows Phe as the sickly best friend of Her Grace, Kyra Theonora, the last Water Nymph duty bound by a familial oath to protect the island country of Xafara. Only a select group of people are aware of Phe’s shadow side. Trained by General Bastion to be an assassin and Kyra’s secret weapon.
+Everything changes when Kyra is abducted, exposing Phe’s cover and acting as a catalyst to Phe’s own bound magic, thrusting Phe into a world she’d thought a fantasy.
+As Phe maneuvers the unfamiliar landscape of magic, grappling with one obstacle after another, she tries to figure out how to save her best friend. Will she survive this new magical world? Will she rescue Kyra? Will she sacrifice herself in the process?</string>
+    <string name="polismen">polismen is trying to tell us something that all men should be a gentle and face their guilt.the impact is you choice,do what you want </string>
+    <string name="panjang">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquam metus quis nunc aliquet, vel suscipit justo pellentesque. Praesent ex lectus, semper sed massa posuere, efficitur dignissim turpis. Nulla in massa elementum, volutpat nunc quis, auctor turpis. Donec enim justo, imperdiet quis magna nec, tincidunt fermentum nisl. Proin pretium efficitur rutrum. Vestibulum et pretium lacus. Nullam auctor risus a purus hendrerit porta. In ac iaculis ligula. Fusce feugiat lorem enim. In eros massa, interdum vel molestie et, porta id eros.
+
+Nunc vel ex nunc. In faucibus laoreet scelerisque. Suspendisse varius pulvinar elit nec tristique. Ut non lectus quis sapien commodo cursus. Aenean sit amet viverra nisl. Vivamus tristique eu elit vitae vulputate. Curabitur eget efficitur diam, eget sagittis elit. Nam mauris odio, mollis volutpat accumsan ac, blandit in sem. Curabitur lobortis augue quis lorem tempus, eu pellentesque mi fringilla. Phasellus varius sapien vitae ex varius euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam mauris justo, feugiat eu condimentum nec, finibus a tellus. Sed accumsan tempus tellus,  </string>
+    <string name="judul_doa"><![CDATA[Doa & dzikir app]]></string>
+    <string name="doa_harian"><![CDATA[doa & dzikir harian]]></string>
+    <string name="doa_latin">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuru</string>
+    <string name="doa_arab">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ</string>
+</resources>
+
+
